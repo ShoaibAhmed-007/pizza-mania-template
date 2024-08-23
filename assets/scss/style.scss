@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap");
+
+// Variables
+$primary-color: #151515;
+$secondary-color: #ff8c42;
+
+/* Body */
+body {
+  background-color: $primary-color;
+  color: $secondary-color;
+  font-family: "Quicksand", sans-serif;
+}
+.selected {
+  background-color: #f0f0f070;
+}
+input {
+  color: $primary-color;
+  border: 3px solid $primary-color;
+  border-radius: 3px;
+  background-color: $secondary-color;
+}
+button {
+  background-color: $primary-color;
+  color: white;
+  border: none;
+  border-radius: 3px;
+}
+li {
+  cursor: pointer;
+}
+li:hover {
+  color: #c97b4b;
+}
+// Hero Section
+.hero {
+  background-color: $secondary-color;
+  color: $primary-color;
+}
+// Menu Section
+.menu {
+  background-color: $secondary-color;
+  color: $primary-color;
+}
+.innerMenu {
+  background-color: $primary-color;
+  color: $secondary-color;
+}
+.card {
+  color: $primary-color;
+}
+#rating-value,
+#item-title {
+  color: $secondary-color;
+}
+#main-image {
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  opacity: 0;
+  transform: scale(0.95);
+}
+
+#main-image.show {
+  opacity: 1;
+  transform: scale(1);
+}
+#main-text {
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+#main-text.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Footer */
+footer {
+  background-color: $primary-color;
+  color: $secondary-color;
+}

@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap");
+/* Body */
+body {
+  background-color: #151515;
+  color: #ff8c42;
+  font-family: "Quicksand", sans-serif;
+}
+
+.selected {
+  background-color: rgba(240, 240, 240, 0.4392156863);
+}
+
+input {
+  color: #151515;
+  border: 3px solid #151515;
+  border-radius: 3px;
+  background-color: #ff8c42;
+}
+
+button {
+  background-color: #151515;
+  color: white;
+  border: none;
+  border-radius: 3px;
+}
+
+li {
+  cursor: pointer;
+}
+
+li:hover {
+  color: #c97b4b;
+}
+
+.hero {
+  background-color: #ff8c42;
+  color: #151515;
+}
+
+.menu {
+  background-color: #ff8c42;
+  color: #151515;
+}
+
+.innerMenu {
+  background-color: #151515;
+  color: #ff8c42;
+}
+
+.card {
+  color: #151515;
+}
+
+#rating-value,
+#item-title {
+  color: #ff8c42;
+}
+
+#main-image {
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  opacity: 0;
+  transform: scale(0.95);
+}
+
+#main-image.show {
+  opacity: 1;
+  transform: scale(1);
+}
+
+#main-text {
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+#main-text.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Footer */
+footer {
+  background-color: #151515;
+  color: #ff8c42;
+}
+
+/*# sourceMappingURL=style.css.map */
